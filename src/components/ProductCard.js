@@ -20,12 +20,12 @@ const ProductCard = ({ product }) => {
         </ul>
       </div>
       <div className='flex gap-2 mt-5'>
-        <button className='bg-indigo-500 rounded-full py-1 px-2 flex-1 text-white text-bold'>
+        <button className='bg-sky-500 rounded-full py-1 px-2 flex-1 text-white text-bold'>
           Add to cart
         </button>
         <button
           title='Add to wishlist'
-          className='bg-indigo-500  py-1 px-2 rounded-full'
+          className='bg-sky-500  py-1 px-2 rounded-full'
         >
           <BiListPlus className='text-white' />
         </button>

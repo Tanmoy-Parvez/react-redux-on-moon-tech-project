@@ -1,5 +1,6 @@
 [
   {
+    "_id": 1,
     "model": "AMD Ryzen 5 5600X Gaming PC",
     "image": "https://live.staticflickr.com/65535/52522584794_4a9898a992_o.jpg",
     "status": true,
@@ -39,6 +40,7 @@
     ]
   },
   {
+    "_id": 2,
     "model": "Intel 10th Gen Core i3-10100 Gaming PC",
     "image": "https://live.staticflickr.com/65535/52521844202_dd853335c9_o.jpg",
     "status": true,
@@ -75,6 +77,7 @@
     ]
   },
   {
+    "_id": 3,
     "model": "AMD Ryzen 5 3600 Gaming PC",
     "image": "https://live.staticflickr.com/65535/52522855818_98bdd4c07a_o.jpg",
     "status": true,
@@ -111,42 +114,7 @@
     ]
   },
   {
-    "model": "Gaming PC 10th Gen Core i5-10400f",
-    "image": "https://live.staticflickr.com/65535/52522584684_9fa14a3332_o.jpg",
-    "status": true,
-    "keyFeature": [
-      "MSI B560M-A PRO Intel 11th Gen mATX Motherboard",
-      "Intel 10th Gen i5-10400F Processor",
-      "8GB RAM +1TB HDD + 128GB SSD",
-      "ASUS GeForce GT 1030 2GB GDDR5 Low Profile Graphics Card"
-    ],
-    "price": 56700,
-    "rating": 3,
-    "spec": [
-      {
-        "processor": "Intel 10th Gen Core i5-10400F Processor"
-      },
-      {
-        "motherboard": "MSI B560M-A PRO Intel 11th Gen mATX Motherboard"
-      },
-      {
-        "ram": "Team T-Force VULCAN Z Red 8GB DDR4 3200MHz Desktop Gaming RAM"
-      },
-      {
-        "graphics": "ASUS GeForce GT 1030 2GB GDDR5 Low Profile Graphics Card"
-      },
-      {
-        "storage": "Toshiba P300 1TB Desktop PC Internal Hard Drive Team MP33 128GB M.2 PCIe SSD"
-      },
-      {
-        "casing": "Antec NX270 RGB TG Mid Tower Gaming Case"
-      },
-      {
-        "psu": "Antec VP450P PLUS 450W Continuous Power Supply"
-      }
-    ]
-  },
-  {
+    "_id": 4,
     "model": "Intel 10th Gen Core i7-10700 Gaming PC",
     "image": "https://live.staticflickr.com/65535/52522308736_8453894269_o.jpg",
     "status": true,
@@ -183,6 +151,7 @@
     ]
   },
   {
+    "_id": 5,
     "model": "Intel Core i5-11400 11th Gen Gaming PC",
     "image": "https://live.staticflickr.com/65535/52522308721_4f2de69503_o.jpg",
     "status": true,
@@ -219,6 +188,7 @@
     ]
   },
   {
+    "_id": 6,
     "model": "Intel 11th Gen Core i5-11400f Gaming PC",
     "image": "https://live.staticflickr.com/65535/52522855818_98bdd4c07a_o.jpg",
     "status": true,
@@ -258,6 +228,7 @@
     ]
   },
   {
+    "_id": 7,
     "model": "AMD Ryzen 7 5800X3D Gaming PC",
     "image": "https://live.staticflickr.com/65535/52521844332_5f738162d8_o.jpg",
     "status": true,
@@ -293,6 +264,43 @@
       },
       {
         "cooler": "Antec Prizm X 120 ARGB 3+C Cooling Fan"
+      }
+    ]
+  },
+  {
+    "_id": 8,
+    "model": "Gaming PC 10th Gen Core i5-10400f",
+    "image": "https://live.staticflickr.com/65535/52522584684_9fa14a3332_o.jpg",
+    "status": true,
+    "keyFeature": [
+      "MSI B560M-A PRO Intel 11th Gen mATX Motherboard",
+      "Intel 10th Gen i5-10400F Processor",
+      "8GB RAM +1TB HDD + 128GB SSD",
+      "ASUS GeForce GT 1030 2GB GDDR5 Low Profile Graphics Card"
+    ],
+    "price": 56700,
+    "rating": 3,
+    "spec": [
+      {
+        "processor": "Intel 10th Gen Core i5-10400F Processor"
+      },
+      {
+        "motherboard": "MSI B560M-A PRO Intel 11th Gen mATX Motherboard"
+      },
+      {
+        "ram": "Team T-Force VULCAN Z Red 8GB DDR4 3200MHz Desktop Gaming RAM"
+      },
+      {
+        "graphics": "ASUS GeForce GT 1030 2GB GDDR5 Low Profile Graphics Card"
+      },
+      {
+        "storage": "Toshiba P300 1TB Desktop PC Internal Hard Drive Team MP33 128GB M.2 PCIe SSD"
+      },
+      {
+        "casing": "Antec NX270 RGB TG Mid Tower Gaming Case"
+      },
+      {
+        "psu": "Antec VP450P PLUS 450W Continuous Power Supply"
       }
     ]
   }
