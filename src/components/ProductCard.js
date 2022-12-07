@@ -1,18 +1,24 @@
 import React from "react";
 import { BiListPlus } from "react-icons/bi";
 import { useDispatch } from "react-redux";
+import { useLocation } from "react-router-dom";
 import { actionCreator } from "../redux/actionCreators/actionCreators";
 
 
 const ProductCard = ({ product }) => {
 
   const dispatch = useDispatch();
+  const { pathname } = useLocation()
+
 
   return (
     <div
-      className='shadow-lg rounded-3xl border  p-3 flex flex-col text-indigo-900'
-      key={product._id}
+      className='shadow-lg rounded-3xl border  p-3 flex flex-col text-sky-600 relative'
     >
+      {pathname.includes("cart") && <div className="absolute top-2 right-2 text-white bg-sky-500 w-8 h-8 rounded-full grid place-items-center">
+        <p>{product.quantity}</p>
+      </div>}
+
       <div className='h-52 w-52 mx-auto'>
         <img src={product.image} alt={product.model} />
       </div>
